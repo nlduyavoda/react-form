@@ -1,7 +1,16 @@
 .App {
-  text-align: center;
+  padding: 10%;
+}
+.product {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 20px;
 }
 
+img {
+  height: 300px;
+  width: 300px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
