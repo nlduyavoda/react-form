@@ -1,0 +1,28 @@
+.table {
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  border: 1px solid;
+  padding: 10%;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+.row-item {
+  margin: 20px 0 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+.inputfields {
+  margin: 20px 0 20px 20px;
+  width: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.inputfields > input {
+  margin-bottom: 20px;
+}
+.tool-table {
+  display: grid;
+  padding: 20px;
+}

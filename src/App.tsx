@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Home from "./pages/home";
 import Form from "./components/form";
+import FieldArray from "./components/fieldArray";
 import Layout from "./components/layout";
 import "./App.css";
 

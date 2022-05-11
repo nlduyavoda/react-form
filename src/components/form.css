@@ -1,7 +1,6 @@
 .form-container {
   display: flex;
   justify-content: center;
-  position: relative;
 }
 .form {
   display: grid;
@@ -9,6 +8,7 @@
   border: 1px solid;
   padding: 20px;
   border-radius: 5px;
+  position: relative;
 }
 input {
   margin-bottom: 20px;
@@ -23,7 +23,10 @@ input:last-child {
   height: 50px;
   width: 50px;
   position: absolute;
-  top: 10%;
-  left: 35%;
+  left: -60px;
   border-radius: 5px;
+}
+span {
+  color: red;
+  font-size: 10px;
 }
